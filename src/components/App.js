@@ -1,13 +1,17 @@
 import Banner from './Banner'
 import Cart from './Cart'
+import QuestionForm from './QuestionForm'
 import ShoppingList from './ShoppingList'
 
 function App() {
     return (
       <div>
+
                 <Banner />
-                <Cart />
+                <QuestionForm/>
+                {/*<Cart />*/}
                 <ShoppingList />
+                
       </div>
     )
 }
